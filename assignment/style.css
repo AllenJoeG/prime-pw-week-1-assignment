@@ -17,6 +17,11 @@ footer {
   text-align: center;
   height: 100px;
 }
+.imagebox {
+  position: relative;
+  text-align: center;
+
+}
 /* Align the h1 containing your name in the center of the header*/
 h1 {
   justify-content: center;
@@ -36,16 +41,27 @@ p {
 }
 /* Put a border around your image */
 img {
-  border: 5px solid #440044;
+  border: 5px solid #66ffcc;
 }
+img:hover {
+
+}
+
 #camelback {
-  width: 95%;
+  width: 85%;
 }
 /* Change the font-family of your list */
+.facts {
+  position: absolute;
+  top: 20%;
+  left: 29%;
+  transform: translate(-20%, -20%);
+  background-color: rgba(0, 0, 0, .6);
+}
 ul {
   margin: 30px auto;
   padding: 0 20px;
-  text-align: center;
+  text-align: left;
 }
 li {
   color: #FFF;
@@ -54,7 +70,4 @@ li {
   font-weight: 300;
   text-transform: uppercase;
   display: block;
-}
-li:hover {
-  color: #DBE9EE;
 }
